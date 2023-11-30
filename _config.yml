@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: /webring # the subpath of your site, e.g. /blog
 url: https://casually-blue.github.io
-repository: casuallyblue/webring
+repository: casually-blue/webring
 
 # END: You *can* customize the stuff below but you don't need to.
 
