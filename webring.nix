@@ -19,7 +19,7 @@ let cfg = config.casuallyblue.services.webring; in
     services.nginx.virtualHosts."${cfg.hostname}" = {
       forceSSL = true;
       enableACME = true;
-      root = self.packages.x86_64-linux.default;
+      root = "${self.packages.x86_64-linux.default}";
     };
   };
 }
