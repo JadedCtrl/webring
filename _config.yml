@@ -24,8 +24,8 @@ title: Webring
 description: >- # this means to ignore newlines until "baseurl:"
   This is a webring
 
-baseurl: /webring # the subpath of your site, e.g. /blog
-url: https://casually-blue.github.io
+baseurl: /
+url: https://webring.casuallyblue.dev
 repository: casually-blue/webring
 
 # END: You *can* customize the stuff below but you don't need to.
