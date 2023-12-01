@@ -1,7 +1,7 @@
 ---
 title: Join
 permalink: /join/
-layout: default
+layout: base 
 ---
 
 {% include join-script.html %}
