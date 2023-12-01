@@ -26,6 +26,11 @@
             buildInputs = [ bundix gems ];
           };
 
+        nixosModules = {
+          default = import ./webring.nix inputs.self;
+        };
+
+
         packages.default =
           stdenv.mkDerivation {
             name = "webring";
